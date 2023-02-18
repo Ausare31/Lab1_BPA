@@ -8,4 +8,3 @@ with open('result.txt', 'w') as f:
     for employee in employees:
         name = employee.find('a').text.strip()
         f.write(name + '\n')
-        f.write(name + '\n')
